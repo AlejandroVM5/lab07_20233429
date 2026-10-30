@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 
     @GetMapping({"/", "/inicio"})
-    public String index() {
-        return "index";
+    public String mostrarInicio() {
+        // Retorna la vista inicio.html
+        return "inicio";
     }
 }
